@@ -1,7 +1,7 @@
 FROM alpine:edge
 MAINTAINER playniuniu@gmail.com
 
-ENV PACKAGES libcurl-dev curl python3 octave gnuplot ttf-opensans ghostscript
+ENV PACKAGES libcurl curl python3 octave gnuplot ttf-opensans ghostscript
 ENV BUILD_ESSENTIAL make gcc g++ python3-dev
 ENV PIP_PACKAGE jupyter octave_kernel ipywidgets
 
